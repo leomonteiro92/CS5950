@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item android:id="@+id/menu_item_send_to_sms"
+	    android:icon="@android:drawable/ic_menu_send"
+	    android:title="@string/send_sms"></item>
+	
+	<item android:id="@+id/menu_item_send_to_email"
+	    android:icon="@android:drawable/ic_dialog_email"
+	    android:title="@string/send_email">
+	</item>
+    
+	<item android:id="@+id/menu_item_delete_crime"
+	    android:icon="@android:drawable/ic_menu_delete"
+	    android:title="@string/delete_note"></item>    
+
+</menu>

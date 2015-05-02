@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	<string name="new_game">New Game</string>
+	<string name="o_won">\'O\' won</string>
+	<string name="x_won">\'X\' won</string>
+	<string name="tie">It is a Tie</string>
+    
+</resources>

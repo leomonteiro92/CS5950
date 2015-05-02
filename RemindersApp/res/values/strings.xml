@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Reminders App</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Enter the title of the Reminder</string>
+    <string name="time_interval">Enter the time interval</string>
+	<string name="time_frequency">How many times?</string>
+    <string name="set">Set</string>
+    <string name="notification">Reminder is on time</string>
+    
+</resources>

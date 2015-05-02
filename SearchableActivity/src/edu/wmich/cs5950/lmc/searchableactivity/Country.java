@@ -1,0 +1,48 @@
+package edu.wmich.cs5950.lmc.searchableactivity;
+
+public class Country {
+
+	private int id;
+	private String name;
+	private String capitalName;
+
+	public Country(String name, String capitalName) {
+		this.name = name;
+		this.capitalName = capitalName;
+	}
+
+	public Country() {
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getCapitalName() {
+		return capitalName;
+	}
+
+	public void setCapitalName(String capitalName) {
+		this.capitalName = capitalName;
+	}
+
+	@Override
+	public String toString() {
+		return this.name 
+				+ "; capital city: " 
+				+ this.capitalName;
+	}
+
+}
